@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "glowbuck")(type "KiCad")(uri "${KIPRJMOD}/glowbuck.kicad_sym")(options "")(descr ""))
+)
