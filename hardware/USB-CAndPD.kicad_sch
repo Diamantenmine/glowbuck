@@ -2759,6 +2759,17 @@
 		)
 		(uuid "1058284c-60e9-4260-8aab-d775bd44e546")
 	)
+	(text "The TPS25730D limits the slew rate of the internal power MOSFET and allows for more than 100 uF at the output."
+		(exclude_from_sim no)
+		(at 15.748 16.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3182da1f-7b7e-40e6-813d-e5c1309a1850")
+	)
 	(junction
 		(at 240.03 81.28)
 		(diameter 0)

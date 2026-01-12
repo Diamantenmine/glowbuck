@@ -452,8 +452,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "glowbuck"
+    ],
+    "pinned_symbol_libs": [
+      "glowbuck"
+    ]
   },
   "meta": {
     "filename": "glowbuck.kicad_pro",
@@ -537,19 +541,19 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
           "show": true
@@ -565,12 +569,78 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "OrderLink",
+          "name": "OrderLink",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "Qty",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Var",
+          "name": "Var",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MouserNumber",
+          "name": "MouserNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ManufacturerNumber",
+          "name": "ManufacturerNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part",
+          "name": "Part",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -634,14 +704,6 @@
     [
       "db0a3414-cc79-4f97-bd9e-7c58923a86c4",
       "Logic Level Converter"
-    ],
-    [
-      "c0943fa8-7e2e-4660-95c8-5ea33e491195",
-      "Logic Level Converter1"
-    ],
-    [
-      "c61560d1-ceea-495e-a2b0-4a8dd49d59cb",
-      "Logic Level Converter2"
     ]
   ],
   "text_variables": {}

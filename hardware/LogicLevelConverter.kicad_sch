@@ -132,18 +132,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "glowbuck:2N7002NXAKR"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -151,8 +148,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "2N7002NXAKR"
+				(at 5.588 -4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -160,8 +157,29 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 5.334 -6.223 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
+				(at 5.334 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "60 V, 300 mA, N-Channel"
+				(at 18.288 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -169,8 +187,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "MouserNumber" "771-2N7002NXAKR"
+				(at 14.986 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,7 +196,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
 				(at 0 0 0)
 				(effects
 					(font
@@ -187,34 +205,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -223,7 +214,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(symbol "2N7002NXAKR_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -390,306 +381,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:2N7002"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7002"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N7002_1_1"
+			(symbol "2N7002NXAKR_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1237,14 +929,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "R602")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "R702")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "R502")
 					(unit 1)
@@ -1355,124 +1039,8 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "R603")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "R703")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "R503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 68.58 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "513a86e5-e30d-41b8-87e6-aae8db147a0d")
-		(property "Reference" "Q502"
-			(at 74.93 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 74.93 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 68.58 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 68.58 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 68.58 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 68.58 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 68.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "018149b3-5da6-490c-9fc3-e345bb232eed")
-		)
-		(pin "1"
-			(uuid "f4f2d98e-b3ee-4dad-940d-fb852f6ce748")
-		)
-		(pin "3"
-			(uuid "b1960dad-15d2-449c-964a-1645f2390e61")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "Q602")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "Q702")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
-					(reference "Q502")
 					(unit 1)
 				)
 			)
@@ -1583,14 +1151,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "R601")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "R701")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "R501")
 					(unit 1)
@@ -1657,14 +1217,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "#PWR0601")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "#PWR0701")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "#PWR0501")
 					(unit 1)
@@ -1673,17 +1225,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 124.46 50.8 0)
+		(lib_id "glowbuck:2N7002NXAKR")
+		(at 88.9 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "85355b5e-d4d1-446e-ad08-9de842e22544")
-		(property "Reference" "Q1"
-			(at 130.81 49.5299 0)
+		(uuid "89fed291-ad42-4ddd-a20b-a2cfe5f9cadc")
+		(property "Reference" "Q501"
+			(at 95.25 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1244,7 @@
 			)
 		)
 		(property "Value" "2N7002NXAKR"
-			(at 130.81 52.0699 0)
+			(at 95.25 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1253,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 129.54 52.705 0)
+			(at 94.234 62.103 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1264,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
-			(at 129.54 54.61 0)
+			(at 94.234 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,8 +1273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "60 V, 0,3 A"
-			(at 124.46 50.8 0)
+		(property "Description" "60 V, 300 mA, N-Channel"
+			(at 107.188 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,27 +1282,28 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "c51c6305-b956-4502-959c-ae9159c65bd1")
-		)
-		(pin "1"
-			(uuid "2e2e51ca-4587-4dbd-8dd1-86a83e382e02")
+		(property "MouserNumber" "771-2N7002NXAKR"
+			(at 103.886 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "3a8219eb-1660-4495-b7ef-8de13752db0f")
+			(uuid "380c2004-36ec-4041-9d50-5edb2ff3b68b")
+		)
+		(pin "1"
+			(uuid "5508dd92-3d43-47a0-bb7e-c8aa44b7ef65")
+		)
+		(pin "2"
+			(uuid "83ecfd6c-2e5c-4527-b5d0-9aae65515c24")
 		)
 		(instances
 			(project ""
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "Q3")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
-					(reference "Q1")
+					(reference "Q501")
 					(unit 1)
 				)
 			)
@@ -1861,14 +1414,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "R605")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "R705")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "R505")
 					(unit 1)
@@ -1977,14 +1522,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "R604")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "R704")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "R504")
 					(unit 1)
@@ -1993,17 +1530,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 88.9 55.88 0)
+		(lib_id "glowbuck:2N7002NXAKR")
+		(at 68.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "d4bb491f-1453-4a09-a64a-ada7cb24805e")
-		(property "Reference" "Q501"
-			(at 95.25 54.6099 0)
+		(uuid "d625881e-215c-43f8-b070-7550dc16a2e4")
+		(property "Reference" "Q502"
+			(at 74.93 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,8 +1548,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 95.25 57.1499 0)
+		(property "Value" "2N7002NXAKR"
+			(at 74.93 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,8 +1557,29 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 93.98 53.34 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 73.914 69.723 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
+			(at 73.914 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "60 V, 300 mA, N-Channel"
+			(at 86.868 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,72 +1587,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 88.9 68.58 0)
+		(property "MouserNumber" "771-2N7002NXAKR"
+			(at 83.566 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 88.9 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 88.9 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "027483ea-0d69-465f-8db0-8fa00b0d4e2c")
-		)
-		(pin "1"
-			(uuid "09f62c97-3c05-4551-848e-99f5bb57ef1b")
 		)
 		(pin "3"
-			(uuid "91bb59ac-f3b8-48d9-969a-216abb57477c")
+			(uuid "50eba5a8-60bc-46ff-8dbb-62a59905b4c0")
+		)
+		(pin "1"
+			(uuid "3bce7e2f-a600-48f0-aad4-6e225f4d66fd")
+		)
+		(pin "2"
+			(uuid "8ca7a199-4e48-4dba-b259-6d4bf4d7537c")
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "Q601")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "Q701")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
-					(reference "Q501")
+					(reference "Q502")
 					(unit 1)
 				)
 			)
@@ -2159,14 +1673,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "#PWR0602")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "#PWR0702")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "#PWR0502")
 					(unit 1)
@@ -2277,14 +1783,6 @@
 		)
 		(instances
 			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c0943fa8-7e2e-4660-95c8-5ea33e491195"
-					(reference "R606")
-					(unit 1)
-				)
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/c61560d1-ceea-495e-a2b0-4a8dd49d59cb"
-					(reference "R706")
-					(unit 1)
-				)
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/db0a3414-cc79-4f97-bd9e-7c58923a86c4"
 					(reference "R506")
 					(unit 1)

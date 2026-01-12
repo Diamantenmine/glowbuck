@@ -1150,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 53.34 45.72)
+			(xy 53.34 46.99) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1410,6 +1410,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 54.61) (xy 53.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e866ad41-b749-497f-8718-bc0a64af9b07")
+	)
+	(wire
+		(pts
 			(xy 118.11 58.42) (xy 109.22 58.42)
 		)
 		(stroke
@@ -1575,25 +1585,25 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "244d702f-ba60-46d4-9c41-75becc0131bf")
 		(property "Reference" "C302"
-			(at 46.99 49.5299 0)
+			(at 39.37 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10u"
-			(at 46.99 52.0699 0)
+			(at 39.37 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
@@ -1747,7 +1757,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 53.34 52.07 180)
+		(at 53.34 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1756,7 +1766,7 @@
 		(fields_autoplaced yes)
 		(uuid "374c1683-2243-4348-99ac-5efe5896b07b")
 		(property "Reference" "C303"
-			(at 57.15 50.7999 0)
+			(at 57.15 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1775,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 57.15 53.3399 0)
+			(at 57.15 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1784,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 52.3748 48.26 0)
+			(at 52.3748 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1802,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1811,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,7 +1819,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +1827,7 @@
 			)
 		)
 		(property "MouserNumber" "187-CL32B106KBJNNNE"
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1836,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1844,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 53.34 52.07 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2641,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a19ef341-46ea-429c-926f-15e1f966daef")
 		(property "Reference" "C305"
@@ -2826,7 +2836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rise:NETTIE_0.3mm"
+		(property "Footprint" "glowbuck:NETTIE_0.3mm"
 			(at 90.17 50.8 0)
 			(effects
 				(font
