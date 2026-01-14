@@ -2295,6 +2295,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2748,17 +2873,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Configuration:\nMin 5 V, Max 20 V\nMin 1,5 A, Max 3 A"
-		(exclude_from_sim no)
-		(at 240.284 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1058284c-60e9-4260-8aab-d775bd44e546")
-	)
 	(text "The TPS25730D limits the slew rate of the internal power MOSFET and allows for more than 100 uF at the output."
 		(exclude_from_sim no)
 		(at 15.748 16.002 0)
@@ -2770,8 +2884,19 @@
 		)
 		(uuid "3182da1f-7b7e-40e6-813d-e5c1309a1850")
 	)
+	(text "ADCIN1 = 4 Min 20 V\nADCIN2 = 7 Max 20 V\nADCIN3 = 3 Operating Current 3 A\nADCIN4 = 1 Maximum Current 3 A"
+		(exclude_from_sim no)
+		(at 212.852 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b95f175-43f9-4166-bbd5-69ca80f51ad2")
+	)
 	(junction
-		(at 240.03 81.28)
+		(at 214.63 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13b33608-921f-4daf-93e8-d98fca86e05e")
@@ -2807,7 +2932,7 @@
 		(uuid "25c8ef7f-d8cf-462b-b1a8-68c1586133a1")
 	)
 	(junction
-		(at 252.73 81.28)
+		(at 243.84 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35ded152-0adf-4160-8265-ff700cde5c1a")
@@ -2909,7 +3034,7 @@
 		(uuid "d085928a-5f83-4149-8e7d-fb9711b5a633")
 	)
 	(junction
-		(at 227.33 81.28)
+		(at 243.84 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd44dccf-a367-46e4-9e49-a3f3567b8f97")
@@ -3028,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 113.03) (xy 232.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0527c8cb-fe82-41b4-88b8-7168f68973f2")
+	)
+	(wire
+		(pts
 			(xy 137.16 140.97) (xy 137.16 138.43)
 		)
 		(stroke
@@ -3048,6 +3183,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 81.28) (xy 243.84 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09612fc5-e94f-4e14-b743-6dfb852d7eae")
+	)
+	(wire
+		(pts
 			(xy 127 33.02) (xy 135.89 33.02)
 		)
 		(stroke
@@ -3065,6 +3210,16 @@
 			(type default)
 		)
 		(uuid "0fb87fef-8eb0-4cdf-8e20-47f0f2a36f3e")
+	)
+	(wire
+		(pts
+			(xy 203.2 80.01) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122fc407-717f-486c-a3f0-8f2a682cf857")
 	)
 	(wire
 		(pts
@@ -3108,7 +3263,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 81.28) (xy 227.33 82.55)
+			(xy 232.41 114.3) (xy 243.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f362f8f-eb1f-4e7e-a09d-fb0f295a152c")
+	)
+	(wire
+		(pts
+			(xy 243.84 81.28) (xy 243.84 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3155,6 +3320,16 @@
 			(type default)
 		)
 		(uuid "271d329a-67af-4283-94b2-02dcc6615bd8")
+	)
+	(wire
+		(pts
+			(xy 203.2 104.14) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2ab5ac-99dd-4191-be4b-5ac237324174")
 	)
 	(wire
 		(pts
@@ -3298,6 +3473,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 67.31) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b4a41d2-dff2-4db0-b4b2-9f8c49b85f43")
+	)
+	(wire
+		(pts
 			(xy 121.92 49.53) (xy 137.16 49.53)
 		)
 		(stroke
@@ -3318,7 +3503,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 81.28) (xy 252.73 82.55)
+			(xy 243.84 114.3) (xy 243.84 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3345,6 +3530,16 @@
 			(type default)
 		)
 		(uuid "446391ba-0bb0-456f-bfa4-e24d36a56f9e")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b1acda-d358-48f6-a6f6-f70f91e961c9")
 	)
 	(wire
 		(pts
@@ -3398,13 +3593,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 81.28) (xy 229.87 81.28)
+			(xy 243.84 81.28) (xy 246.38 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "49bd9c4b-5ff7-4a55-8cfa-37f7d5ea56a7")
+	)
+	(wire
+		(pts
+			(xy 203.2 71.12) (xy 203.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f713cd-55c4-4e91-bbf2-127868389646")
 	)
 	(wire
 		(pts
@@ -3438,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 80.01) (xy 240.03 81.28)
+			(xy 214.63 113.03) (xy 214.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3465,6 +3670,16 @@
 			(type default)
 		)
 		(uuid "5ed21193-faad-4615-9d00-0c1495bc009c")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 214.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b3924b-cd93-4c20-a327-799f94593154")
 	)
 	(wire
 		(pts
@@ -3498,7 +3713,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 91.44) (xy 240.03 90.17)
+			(xy 214.63 124.46) (xy 214.63 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3753,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 80.01) (xy 232.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a28e3b-906a-42cb-916e-ed986f2a2553")
+	)
+	(wire
+		(pts
 			(xy 140.97 124.46) (xy 137.16 124.46)
 		)
 		(stroke
@@ -3558,13 +3783,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 80.01) (xy 252.73 81.28)
+			(xy 243.84 113.03) (xy 243.84 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "78d9409c-d7ce-4fe3-b932-35ff88c1029a")
+	)
+	(wire
+		(pts
+			(xy 203.2 114.3) (xy 214.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab5d86c-e08b-4452-b548-c3a6ef4e25cd")
 	)
 	(wire
 		(pts
@@ -3638,6 +3873,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 113.03) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd792fe-4bda-454c-9f29-dcb074c9fafd")
+	)
+	(wire
+		(pts
 			(xy 71.12 114.3) (xy 90.17 114.3)
 		)
 		(stroke
@@ -3658,7 +3903,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 81.28) (xy 255.27 81.28)
+			(xy 243.84 114.3) (xy 246.38 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3668,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 71.12) (xy 252.73 72.39)
+			(xy 243.84 104.14) (xy 243.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3695,6 +3940,16 @@
 			(type default)
 		)
 		(uuid "93325952-a6f8-45cc-b303-4c97666b9d4d")
+	)
+	(wire
+		(pts
+			(xy 232.41 104.14) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956d1a26-8ec5-40ac-ae9d-30585f2f532a")
 	)
 	(wire
 		(pts
@@ -3758,6 +4013,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 71.12) (xy 232.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccc2877-0462-4797-b288-8e765bb0ed59")
+	)
+	(wire
+		(pts
 			(xy 48.26 88.9) (xy 55.88 88.9)
 		)
 		(stroke
@@ -3768,7 +4033,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 91.44) (xy 252.73 90.17)
+			(xy 243.84 124.46) (xy 243.84 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3848,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 81.28) (xy 240.03 82.55)
+			(xy 214.63 114.3) (xy 214.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3958,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 66.04) (xy 97.79 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2029a5d-9511-40ed-8aad-446b550111e3")
+	)
+	(wire
+		(pts
 			(xy 109.22 82.55) (xy 109.22 81.28)
 		)
 		(stroke
@@ -3978,7 +4253,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 80.01) (xy 227.33 81.28)
+			(xy 243.84 80.01) (xy 243.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3988,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 71.12) (xy 227.33 72.39)
+			(xy 243.84 71.12) (xy 243.84 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4283,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 71.12) (xy 240.03 72.39)
+			(xy 214.63 104.14) (xy 214.63 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4228,7 +4503,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 91.44) (xy 227.33 90.17)
+			(xy 243.84 91.44) (xy 243.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4268,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 81.28) (xy 242.57 81.28)
+			(xy 214.63 114.3) (xy 217.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4642,7 @@
 		(uuid "03363945-312e-4a74-a50e-b7a19e04f99c")
 	)
 	(label "PD_ADC4"
-		(at 255.27 81.28 0)
+		(at 246.38 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4377,7 +4652,7 @@
 		(uuid "07a9a065-073f-4864-9d59-a1a44d0d78db")
 	)
 	(label "PD_ADC2"
-		(at 229.87 81.28 0)
+		(at 246.38 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4387,7 +4662,7 @@
 		(uuid "0fa1d05e-b600-41b4-8137-416f510cda06")
 	)
 	(label "PD_LDO_3V3"
-		(at 227.33 71.12 0)
+		(at 243.84 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4397,7 +4672,7 @@
 		(uuid "130f1c64-3d76-4a41-98ce-7d13316daed1")
 	)
 	(label "PD_ADC3"
-		(at 242.57 81.28 0)
+		(at 217.17 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4436,6 +4711,16 @@
 		)
 		(uuid "25587bea-7322-4638-abd2-117d6b1c5a23")
 	)
+	(label "PD_LDO1V5"
+		(at 203.2 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28b830ec-cdc4-47e8-9c36-8e1be9518876")
+	)
 	(label "PD_ADC1"
 		(at 128.27 77.47 0)
 		(effects
@@ -4445,6 +4730,16 @@
 			(justify left bottom)
 		)
 		(uuid "31c6780f-c739-4743-ac7f-16659ea81b84")
+	)
+	(label "PD_LDO1V5"
+		(at 232.41 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a134c47-2529-439d-b865-e76905b4e976")
 	)
 	(label "PD_ADC4"
 		(at 128.27 85.09 0)
@@ -4476,6 +4771,16 @@
 		)
 		(uuid "590d096f-4d5c-48a9-bfc7-75a391df83cd")
 	)
+	(label "PD_LDO1V5"
+		(at 203.2 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59b694da-30eb-4788-b307-7311dee5bee9")
+	)
 	(label "USB_ESP_P"
 		(at 85.09 124.46 180)
 		(effects
@@ -4506,6 +4811,16 @@
 		)
 		(uuid "876066bf-0676-489c-ba87-01f81d574d29")
 	)
+	(label "PD_LDO1V5"
+		(at 232.41 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "949ba826-927e-4a9e-8742-7eb5741706c1")
+	)
 	(label "PD_VIN3V3"
 		(at 124.46 67.31 0)
 		(effects
@@ -4527,7 +4842,7 @@
 		(uuid "994bd5ba-2910-40d9-9db9-482dec35e648")
 	)
 	(label "PD_LDO_3V3"
-		(at 252.73 71.12 0)
+		(at 243.84 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4557,7 +4872,7 @@
 		(uuid "a68c5f52-b98a-4b9d-b906-0b477ca29df4")
 	)
 	(label "PD_LDO_3V3"
-		(at 240.03 71.12 0)
+		(at 214.63 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4687,7 +5002,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04ed3297-1612-4612-81dd-5b7930ae4c28")
 		(property "Reference" "R201"
@@ -4699,7 +5014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "22k"
 			(at 217.17 77.4699 0)
 			(effects
 				(font
@@ -5026,7 +5341,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 86.36 0)
+		(at 214.63 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5035,7 +5350,7 @@
 		(fields_autoplaced yes)
 		(uuid "21e7c114-2296-477f-97db-fdf836dc86e2")
 		(property "Reference" "R207"
-			(at 242.57 85.0899 0)
+			(at 217.17 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5359,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 242.57 87.6299 0)
+			(at 217.17 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5368,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 238.252 86.36 90)
+			(at 212.852 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5386,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5395,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5403,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5411,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5104,7 +5419,7 @@
 			)
 		)
 		(property "MouserNumber" "603-RT0603DRE075K11L"
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,7 +5428,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 240.03 86.36 0)
+			(at 214.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,11 +5580,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 96.52 0)
+			(at 217.17 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5313,7 +5629,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 91.44 0)
+		(at 214.63 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5322,7 +5638,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a21ec3a-9093-4c52-8f56-b9daaae7d722")
 		(property "Reference" "#PWR0215"
-			(at 240.03 97.79 0)
+			(at 214.63 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,15 +5647,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 96.52 0)
+			(at 217.17 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 91.44 0)
+			(at 214.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 91.44 0)
+			(at 214.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5674,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 91.44 0)
+			(at 214.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,6 +5821,117 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
 					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc0105b-e871-4dec-9366-83d766677477")
+		(property "Reference" "R4"
+			(at 217.17 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 217.17 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 212.852 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MouserNumber" "603-RT0603FRE07100KL"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "64807f89-5875-4fd6-950a-84ef722ec96d")
+		)
+		(pin "1"
+			(uuid "2a632390-394f-4ab9-bb78-00c6b6bc6844")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5983,6 +6411,225 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 102.87 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3dd0f55f-8c80-4ef1-ad88-673a866063c5")
+		(property "Reference" "R9"
+			(at 100.584 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 104.902 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 102.87 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Var" "Debug Included(0R) Excluded(-! DNP)"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty" ""
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MouserNumber" "603-RC0603FR-130RL"
+			(at 102.87 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16dd8427-50d4-46a6-91ce-29e47434f089")
+		)
+		(pin "1"
+			(uuid "510e9460-7d8f-41dd-90f1-ea09999b888a")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "40f698e7-54f4-4d00-ad0f-cf4950614eb4")
+		(property "Reference" "R6"
+			(at 234.95 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 234.95 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 230.632 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" ""
+			(at 232.41 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5e798d0-a763-436d-b44f-367ee36f5395")
+		)
+		(pin "1"
+			(uuid "5b57ade2-8722-4631-8fb1-92c6f82485d1")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 44.45 0)
 		(unit 1)
@@ -6335,8 +6982,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 97.79 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56368fcd-f3d3-40dc-b112-c21476ed4615")
+		(property "Reference" "#PWR01"
+			(at 97.79 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad2ddfdb-80c5-47f0-a876-3ad94ed0453a")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 227.33 86.36 0)
+		(at 243.84 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6345,7 +7058,7 @@
 		(fields_autoplaced yes)
 		(uuid "57c4e67b-c3ed-442c-9124-ac4d364c5816")
 		(property "Reference" "R206"
-			(at 229.87 85.0899 0)
+			(at 246.38 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +7067,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 229.87 87.6299 0)
+			(at 246.38 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +7076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 225.552 86.36 90)
+			(at 242.062 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +7085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +7094,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +7103,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 227.33 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +7111,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 227.33 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,7 +7119,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 227.33 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,7 +7127,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 227.33 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,117 +7557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 252.73 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c87f7bf-5b4e-4f42-bb87-b26a2d9c93e0")
-		(property "Reference" "R208"
-			(at 255.27 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 255.27 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 250.952 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OrderLink" ""
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserNumber" "603-RT0603FRE07100KL"
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty" ""
-			(at 252.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cbb6d424-8fdb-4218-9bbc-5a12d5ecacee")
-		)
-		(pin "1"
-			(uuid "cfc81503-d124-4a5f-84bf-a4a85fa5bca2")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
-					(reference "R208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 55.88 121.92 0)
 		(unit 1)
@@ -7185,7 +7787,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 252.73 76.2 0)
+		(at 243.84 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7194,7 +7796,7 @@
 		(fields_autoplaced yes)
 		(uuid "75daaf6e-4405-4e9c-a541-77b8ef61092f")
 		(property "Reference" "R204"
-			(at 255.27 74.9299 0)
+			(at 246.38 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7203,7 +7805,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 255.27 77.4699 0)
+			(at 246.38 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7814,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 250.952 76.2 90)
+			(at 242.062 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7832,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7841,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7849,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7857,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,7 +7865,7 @@
 			)
 		)
 		(property "MouserNumber" "603-RT0603FRE07100KL"
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7272,7 +7874,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 252.73 76.2 0)
+			(at 243.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +8123,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7cc7f57c-9911-4904-a8cb-81128108fa56")
 		(property "Reference" "R214"
 			(at 127.508 140.97 90)
@@ -7632,8 +8234,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 203.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7d4cd8a9-7a80-48eb-b19b-e899a33e5e5c")
+		(property "Reference" "R5"
+			(at 205.74 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 205.74 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 201.422 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" ""
+			(at 203.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69fdee11-eaca-4549-8c82-611e4d10d7c6")
+		)
+		(pin "1"
+			(uuid "db27366a-6cf3-4443-a10a-033d8f61726a")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 252.73 91.44 0)
+		(at 243.84 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7642,7 +8346,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a095ea4-08e3-4877-9f92-a8b404196fb7")
 		(property "Reference" "#PWR0216"
-			(at 252.73 97.79 0)
+			(at 243.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,15 +8355,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 96.52 0)
+			(at 246.38 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 91.44 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 91.44 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +8382,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 91.44 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +8606,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9c34366e-17fa-42d9-8d75-3db3bee0ad65")
 		(property "Reference" "R209"
 			(at 127.254 118.11 90)
@@ -8006,6 +8711,108 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
 					(reference "R209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 203.2 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "a220f7a5-052d-4769-87cf-9a7817bcd8e2")
+		(property "Reference" "R7"
+			(at 205.74 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 205.74 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 201.422 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" ""
+			(at 203.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5b4dd51-e0d4-4005-965d-384d537fa556")
+		)
+		(pin "1"
+			(uuid "6a932f1d-35a9-4f57-a353-46ea15d9d1e7")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8256,6 +9063,219 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bd72d849-6f3c-458d-92f8-9496bc84bb2f")
+		(property "Reference" "R8"
+			(at 234.95 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 234.95 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 230.632 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Qty" ""
+			(at 232.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cd29b1e-c243-4716-94ac-58041612d7db")
+		)
+		(pin "1"
+			(uuid "d91844d4-591d-418c-9b9e-6eb26c5491d4")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 243.84 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1f40c37-09f5-4a0e-bfba-5446daffea2d")
+		(property "Reference" "R3"
+			(at 246.38 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 246.38 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 242.062 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MouserNumber" "603-RT0603DRE075K11L"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty" ""
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9c3e886-4885-4280-964b-4b3ae15d7f94")
+		)
+		(pin "1"
+			(uuid "36200e29-9a0d-48f6-89c4-68dfb402f5a9")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8893,117 +9913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 214.63 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e62fc8e0-0f7a-4fad-b97d-941087e28ed2")
-		(property "Reference" "R205"
-			(at 217.17 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 217.17 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 212.852 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OrderLink" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserNumber" "603-RT0603FRE07100KL"
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a59a5396-3da9-476a-a894-5dc0f0fe6327")
-		)
-		(pin "1"
-			(uuid "b844225c-27fe-4786-ad97-2791236be53a")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
-					(reference "R205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 120.65 39.37 0)
 		(mirror x)
@@ -9233,7 +10142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 91.44 0)
+		(at 243.84 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9242,7 +10151,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea2e9277-8ecd-4589-bc43-cce9a88826f2")
 		(property "Reference" "#PWR0214"
-			(at 227.33 97.79 0)
+			(at 243.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,15 +10160,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 96.52 0)
+			(at 246.38 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +10178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +10187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 91.44 0)
+			(at 243.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +10209,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 76.2 0)
+		(at 243.84 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9308,7 +10218,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee0099bc-cf04-40ac-b872-a309ee9d4963")
 		(property "Reference" "R202"
-			(at 229.87 74.9299 0)
+			(at 246.38 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +10227,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 229.87 77.4699 0)
+			(at 246.38 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +10236,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 225.552 76.2 90)
+			(at 242.062 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +10245,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,7 +10254,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +10263,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +10271,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +10279,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9377,7 +10287,7 @@
 			)
 		)
 		(property "MouserNumber" "603-RT0603FRE07100KL"
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,7 +10296,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 227.33 76.2 0)
+			(at 243.84 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +10497,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 76.2 0)
+		(at 214.63 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9596,7 +10506,7 @@
 		(fields_autoplaced yes)
 		(uuid "f96c484c-8c42-4904-9a80-3ff4318ec503")
 		(property "Reference" "R203"
-			(at 242.57 74.9299 0)
+			(at 217.17 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,8 +10514,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 242.57 77.4699 0)
+		(property "Value" "22k"
+			(at 217.17 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +10524,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 238.252 76.2 90)
+			(at 212.852 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +10533,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +10542,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +10551,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9649,7 +10559,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +10567,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +10575,7 @@
 			)
 		)
 		(property "MouserNumber" "603-RT0603FRE07100KL"
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +10584,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 240.03 76.2 0)
+			(at 214.63 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
