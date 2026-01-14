@@ -642,7 +642,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -700,10 +700,6 @@
     [
       "015535ff-5c39-4e5a-877e-d1b03c5377a0",
       "Buck Power"
-    ],
-    [
-      "db0a3414-cc79-4f97-bd9e-7c58923a86c4",
-      "Logic Level Converter"
     ]
   ],
   "text_variables": {}
