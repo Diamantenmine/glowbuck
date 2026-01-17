@@ -4996,108 +4996,6 @@
 		(uuid "c74a93f7-c861-4afb-bfa4-f1b84c3b433d")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 214.63 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04ed3297-1612-4612-81dd-5b7930ae4c28")
-		(property "Reference" "R201"
-			(at 217.17 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22k"
-			(at 217.17 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.852 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OrderLink" ""
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Qty" ""
-			(at 214.63 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b13428b3-57ac-4405-98d3-294be76fdede")
-		)
-		(pin "1"
-			(uuid "9edb8e03-1615-488c-a995-cf73eca9d7c9")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
-					(reference "R201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 44.45 0)
 		(unit 1)
@@ -5828,16 +5726,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 86.36 0)
+		(at 203.2 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2cc0105b-e871-4dec-9366-83d766677477")
-		(property "Reference" "R4"
-			(at 217.17 85.0899 0)
+		(uuid "2ed3f867-67ca-4353-8fb2-17d3bd7dc3cf")
+		(property "Reference" "R205"
+			(at 205.74 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,8 +5743,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 217.17 87.6299 0)
+		(property "Value" "3k"
+			(at 205.74 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5753,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.852 86.36 90)
+			(at 201.422 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5762,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 86.36 0)
+			(at 203.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,65 +5771,24 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 214.63 86.36 0)
+			(at 203.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Device" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "OrderLink" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MouserNumber" "603-RT0603FRE07100KL"
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty" ""
-			(at 214.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64807f89-5875-4fd6-950a-84ef722ec96d")
 		)
 		(pin "1"
-			(uuid "2a632390-394f-4ab9-bb78-00c6b6bc6844")
+			(uuid "bfcc178e-293c-49a6-8fd2-52cf9d7cd303")
+		)
+		(pin "2"
+			(uuid "a24e4904-7b3e-441c-b676-f39259cd3c0d")
 		)
 		(instances
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
-					(reference "R4")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 76.2 0)
+		(at 214.63 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8244,7 +8101,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d4cd8a9-7a80-48eb-b19b-e899a33e5e5c")
 		(property "Reference" "R5"
-			(at 205.74 74.9299 0)
+			(at 217.17 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8253,7 +8110,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 205.74 77.4699 0)
+			(at 217.17 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,7 +8119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.422 76.2 90)
+			(at 212.852 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8128,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8137,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8146,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 203.2 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8154,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 203.2 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8162,7 @@
 			)
 		)
 		(property "OrderLink" ""
-			(at 203.2 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8313,7 +8170,7 @@
 			)
 		)
 		(property "Qty" ""
-			(at 203.2 76.2 0)
+			(at 214.63 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9063,6 +8920,126 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
 					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5487ea6-b19a-48f9-b63e-bbdc98d135d6")
+		(property "Reference" "R208"
+			(at 217.17 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k1"
+			(at 217.17 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 216.408 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OrderLink" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MouserNumber" "603-RT0603DRE075K11L"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Var" "Debug Included(5k1) Excluded(-! DNP)"
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty" ""
+			(at 214.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "937b7541-dac7-419c-977e-30cd3955e696")
+		)
+		(pin "1"
+			(uuid "ca1c0c82-d5a9-45e5-a7e7-6a6f44bff912")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "R208")
 					(unit 1)
 				)
 			)

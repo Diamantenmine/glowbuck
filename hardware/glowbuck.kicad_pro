@@ -482,6 +482,18 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "FAST",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 232)"
+      },
+      {
+        "name": "POW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 127, 6)"
       }
     ],
     "meta": {
@@ -489,7 +501,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POW",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "POW",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "POW",
+        "pattern": "VOUT"
+      },
+      {
+        "netclass": "FAST",
+        "pattern": ".*USB_.*"
+      },
+      {
+        "netclass": "FAST",
+        "pattern": ".*SCK"
+      },
+      {
+        "netclass": "FAST",
+        "pattern": ".*SDA"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -610,7 +647,7 @@
           "group_by": false,
           "label": "MouserNumber",
           "name": "MouserNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -628,7 +665,7 @@
           "group_by": false,
           "label": "ManufacturerNumber",
           "name": "ManufacturerNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -642,7 +679,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
