@@ -1913,7 +1913,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
+		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1934,7 +1934,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VCC"
+			(property "Value" "VBUS"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1960,7 +1960,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1978,7 +1978,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VCC_0_1"
+			(symbol "VBUS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2016,7 +2016,7 @@
 					)
 				)
 			)
-			(symbol "VCC_1_1"
+			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2038,6 +2038,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "Output: 5 V @ 11 A\nInput: 11 V, 20 V, 28 V\n500 kHz, 6 ms ss, power saving mode, startup 7,5 V"
+		(exclude_from_sim no)
+		(at 14.986 14.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0b234d88-ed39-4020-a234-69889c2710b4")
 	)
 	(junction
 		(at 148.59 81.28)
@@ -3807,72 +3818,6 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
 					(reference "C409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 113.03 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4958b61f-df81-49b2-806f-53fb47ce9ccb")
-		(property "Reference" "#PWR0401"
-			(at 113.03 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 113.03 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 113.03 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14565f9d-d522-4ba9-810e-d129f0cda4ab")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
-					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -6381,6 +6326,72 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
 					(reference "C401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 113.03 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf8a6ee-f80d-4bc0-a2a0-9bc04e904738")
+		(property "Reference" "#PWR0401"
+			(at 113.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 113.03 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f2bc93-39c6-458f-b63a-1e38f3dd3975")
+		)
+		(instances
+			(project ""
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)

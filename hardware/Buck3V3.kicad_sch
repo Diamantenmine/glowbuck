@@ -1060,6 +1060,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+3V3 can deliver up to 1 A.\nThe IC can deliver up to 2 A with all components on this sheet."
+		(exclude_from_sim no)
+		(at 25.146 28.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "730ecc28-c99b-4c69-ba99-9d486be097fb")
+	)
 	(junction
 		(at 60.96 45.72)
 		(diameter 0)

@@ -2747,7 +2747,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VCC"
+		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2768,7 +2768,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VCC"
+			(property "Value" "VBUS"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2794,7 +2794,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2812,7 +2812,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VCC_0_1"
+			(symbol "VBUS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2850,7 +2850,7 @@
 					)
 				)
 			)
-			(symbol "VCC_1_1"
+			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2873,9 +2873,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The TPS25730D limits the slew rate of the internal power MOSFET and allows for more than 100 uF at the output."
+	(text "The TPS25730D limits the slew rate of the internal power\nMOSFET and allows for more than 100 uF at the output."
 		(exclude_from_sim no)
-		(at 15.748 16.002 0)
+		(at 14.478 19.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,6 +2894,17 @@
 			(justify left)
 		)
 		(uuid "9b95f175-43f9-4166-bbd5-69ca80f51ad2")
+	)
+	(text "VBUS = 20 V @ 3 A"
+		(exclude_from_sim no)
+		(at 14.224 14.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e6678978-5210-4198-a50c-bccfec80e330")
 	)
 	(junction
 		(at 214.63 114.3)
@@ -6553,72 +6564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 185.42 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "516456f1-a2eb-4e0d-a4fd-7a9fd532a2ab")
-		(property "Reference" "#PWR0201"
-			(at 185.42 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 185.42 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 185.42 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fc74dfb-6929-4f64-8c56-483aac6d3acc")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 172.72 57.15 0)
 		(unit 1)
@@ -7226,6 +7171,72 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
 					(reference "C208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 185.42 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dc319a1-4907-4820-b249-73a3b13ed9a0")
+		(property "Reference" "#PWR0201"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 185.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b259e512-371d-4399-96ee-a0bf552353b2")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/e97aabf0-d438-4347-9d51-84dd12990013"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)

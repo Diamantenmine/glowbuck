@@ -516,15 +516,21 @@
       },
       {
         "name": "FAST",
-        "pcb_color": "rgb(255, 0, 255)",
-        "priority": 0,
+        "pcb_color": "rgb(255, 0, 232)",
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 232)"
       },
       {
+        "name": "GND",
+        "pcb_color": "rgba(132, 132, 132, 0.502)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)"
+      },
+      {
         "name": "POW",
-        "pcb_color": "rgb(0, 0, 255)",
-        "priority": 1,
-        "schematic_color": "rgb(255, 127, 6)"
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 0)"
       }
     ],
     "meta": {
@@ -556,6 +562,10 @@
       {
         "netclass": "FAST",
         "pattern": ".*SDA"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },
@@ -722,7 +732,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,

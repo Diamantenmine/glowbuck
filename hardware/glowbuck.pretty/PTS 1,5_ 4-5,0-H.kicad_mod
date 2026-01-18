@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(fp_rect
 		(start -5.8 -10.25)
 		(end 5.2 10.25)
@@ -66,8 +66,8 @@
 		(uuid "923c1754-b88a-4093-90bd-472563941ef8")
 	)
 	(fp_circle
-		(center -5.25 -10)
-		(end -4.75 -10)
+		(center 4.75 -10.25)
+		(end 5.25 -10.25)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -99,19 +99,8 @@
 		(uuid "033ff1b1-be1a-4a09-a387-aea55cbb7fc1")
 	)
 	(fp_rect
-		(start -5.5 -8)
-		(end -3.5 -7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "49c9abcf-bd3c-4953-8b41-5593cf6da4d2")
-	)
-	(fp_rect
-		(start -5.5 -3)
-		(end -3.5 -2)
+		(start 2.75 -3)
+		(end 4.75 -2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -121,8 +110,8 @@
 		(uuid "1cf0645d-6b39-4336-9096-929201916b43")
 	)
 	(fp_rect
-		(start -5.5 2)
-		(end -3.5 3)
+		(start 2.75 2)
+		(end 4.75 3)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -132,8 +121,8 @@
 		(uuid "f9504ac9-1889-426f-9586-8d19068b79d2")
 	)
 	(fp_rect
-		(start -5.5 7)
-		(end -3.5 8)
+		(start 2.75 7)
+		(end 4.75 8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -141,6 +130,17 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "81642bd2-287f-4fe4-b450-2546c287bd3d")
+	)
+	(fp_rect
+		(start 2.757203 -8)
+		(end 4.757203 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "49c9abcf-bd3c-4953-8b41-5593cf6da4d2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 15.5 0)
@@ -155,7 +155,7 @@
 		)
 	)
 	(fp_text user "1"
-		(at -5 -8.5 0)
+		(at 3.75 -8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e6506cdb-6308-447e-a935-0473d1947f5e")
@@ -203,4 +203,15 @@
 		(uuid "52d0453c-72ed-45d6-a5de-e5417b1f7663")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_STEP}/pxc_1792889_03_00_PTS-1-5-4-5-0-H_3D.stp"
+		(offset
+			(xyz 2.9 -10 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
