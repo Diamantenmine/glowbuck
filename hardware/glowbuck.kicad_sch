@@ -1546,142 +1546,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:NetTie_2"
 			(pin_numbers
 				(hide yes)
@@ -5034,26 +4898,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 220.98) (xy 100.33 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc0d35a-a96a-41e2-ac7e-a6b4b36e120b")
-	)
-	(wire
-		(pts
-			(xy 91.44 218.44) (xy 91.44 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de46cc8-2289-4087-be71-aa02b727f97b")
-	)
-	(wire
-		(pts
 			(xy 170.18 148.59) (xy 180.34 148.59)
 		)
 		(stroke
@@ -5611,16 +5455,6 @@
 			(type default)
 		)
 		(uuid "5aa6ba6b-97aa-44af-8f1e-e439b1430f08")
-	)
-	(wire
-		(pts
-			(xy 91.44 208.28) (xy 100.33 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ada11d9-0221-47f1-90fe-a08553d6df7f")
 	)
 	(wire
 		(pts
@@ -6451,16 +6285,6 @@
 			(type default)
 		)
 		(uuid "c9649c82-02cf-46ab-9fdc-dc0a4e5e8ceb")
-	)
-	(wire
-		(pts
-			(xy 91.44 208.28) (xy 91.44 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb0e9c6-62d1-44e0-a33a-a66fb7da1315")
 	)
 	(wire
 		(pts
@@ -7449,6 +7273,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 187.96 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f759e06c-c876-496d-ae28-ac1c2d415aa4")
 		)
@@ -7578,6 +7411,15 @@
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 39.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 39.37 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7788,6 +7630,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 217.17 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534"
@@ -7960,6 +7811,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb3de3fb-8f29-4ebc-ac15-ed1e935a1fd4")
 		)
@@ -8059,6 +7919,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 252.73 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8169,6 +8038,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ec0a606-3954-411c-877c-948fab04f9a8")
 		)
@@ -8230,6 +8108,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 60.96 146.05 0)
 			(effects
 				(font
@@ -8339,6 +8226,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 160.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1d4b84d-a1cf-4d4a-bac4-93b6f17d7f92")
 		)
@@ -8444,6 +8340,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 180.34 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8822,6 +8727,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 82.55 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "620f4307-2fb9-4897-a81d-3b36ef9ba7b2")
 		)
@@ -8884,6 +8798,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 256.54 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 256.54 269.24 0)
 			(effects
 				(font
@@ -8985,6 +8908,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 278.13 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b5fa170-0006-4dc8-8597-904485a988f9")
 		)
@@ -9043,6 +8975,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 111.76 257.81 0)
 			(effects
 				(font
@@ -9298,6 +9239,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e463d688-a915-4fe3-b8a4-e6b4ea9316ec")
 		)
@@ -9407,6 +9357,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 170.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9586,6 +9545,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0556d1dd-f256-43e9-971f-637c2a293381")
 		)
@@ -9695,6 +9663,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9861,6 +9838,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 252.73 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10046,6 +10032,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 190.5 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10281,6 +10276,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 102.87 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46830e05-c3d6-49b8-9124-fd57374af151")
 		)
@@ -10426,86 +10430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 91.44 214.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "5ddf32f3-4c5b-4de5-8255-dc975f7fd788")
-		(property "Reference" "F101"
-			(at 88.9 213.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "FCC16252ADTP"
-			(at 88.9 215.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 89.662 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/317/1/kamaya_products_FCC__english_20170207_094544.pdf"
-			(at 91.44 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 91.44 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "FCC16252ADTP"
-			(at 91.44 214.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "329f9357-c0f8-4431-aaf2-7c6e96b8b15b")
-		)
-		(pin "1"
-			(uuid "8ef28512-7769-4027-9c5b-c6ffb773ba52")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534"
-					(reference "F101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 113.03 238.76 0)
 		(unit 1)
@@ -10570,6 +10494,15 @@
 			)
 		)
 		(property "MouserNumber" "651-1792889"
+			(at 113.03 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 113.03 238.76 0)
 			(effects
 				(font
@@ -10760,6 +10693,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9cd3f4f1-66f6-4dbb-8568-9ab6ab995908")
 		)
@@ -10823,6 +10765,15 @@
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
 			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 49.53 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,6 +10892,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "25cfd6e8-2238-41da-8293-6e0371138ffc")
 		)
@@ -11003,6 +10963,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 241.3 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 241.3 261.62 0)
 			(effects
 				(font
@@ -11075,6 +11044,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 256.54 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534"
@@ -11131,6 +11109,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 241.3 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 241.3 269.24 0)
 			(effects
 				(font
@@ -11334,6 +11321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 111.76 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f274b2ce-3568-4a1c-9abd-b5f40c006860")
 		)
@@ -11391,6 +11387,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 111.76 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 111.76 264.16 0)
 			(effects
 				(font
@@ -11458,6 +11463,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 217.17 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 217.17 261.62 0)
 			(effects
 				(font
@@ -11631,7 +11645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x08_P2.00mm_Vertical"
 			(at 246.38 210.82 0)
 			(effects
 				(font
@@ -11674,29 +11688,21 @@
 				)
 			)
 		)
-		(property "MouserNumber" "649-1012938391601ALF"
-			(at 246.38 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OrderLink" ""
-			(at 246.38 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Qty" ""
 			(at 246.38 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 246.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11918,6 +11924,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29dfb6c8-fd57-40dc-a9e3-907154b1a136")
 		)
@@ -11993,6 +12008,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 114.3 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e59772df-a1dd-4ddf-a4b8-6c5dd832f67c")
 		)
@@ -12055,6 +12079,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 217.17 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 217.17 269.24 0)
 			(effects
 				(font
@@ -12126,6 +12159,15 @@
 			)
 		)
 		(property "ManufacturerNumber" "INA181A3IDBVR"
+			(at 149.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 149.86 218.44 0)
 			(effects
 				(font
@@ -12255,6 +12297,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "17"
@@ -12444,6 +12495,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 256.54 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534"
@@ -12535,6 +12595,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 267.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12801,6 +12870,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 60.96 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "422e20e6-d8b9-4a1e-82f4-3eb2b995903b")
 		)
@@ -12865,6 +12943,15 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 100.33 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 100.33 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13247,6 +13334,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0eaab368-3ef4-4c68-8d29-3992b78b51ac")
 		)
@@ -13422,6 +13518,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13610,6 +13715,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 110.49 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f064bacc-667b-4e31-ab28-beef3a962b7c")
 		)
@@ -13678,6 +13792,15 @@
 			)
 		)
 		(property "ManufacturerNumber" "SN74LVC1T45DBV"
+			(at 64.77 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 64.77 241.3 0)
 			(effects
 				(font
@@ -13760,6 +13883,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 217.17 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 217.17 276.86 0)
 			(effects
 				(font
@@ -13869,6 +14001,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 170.18 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13982,6 +14123,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 166.37 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "beb7c5c5-7ede-41c1-8291-9b0d385a7fea")
 		)
@@ -14091,6 +14241,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14235,6 +14394,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 114.3 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "476ea189-248d-4ca8-b4d3-a1987db958fb")
 		)
@@ -14344,6 +14512,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 82.55 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f536618-f330-4d06-b5fb-2d30c9079d76")
 		)
@@ -14406,6 +14583,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 241.3 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 241.3 254 0)
 			(effects
 				(font
@@ -14518,6 +14704,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 168.91 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a5023ae-c041-403b-9b3b-59cdda021f19")
 		)
@@ -14618,6 +14813,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 102.87 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14791,6 +14995,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 176.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

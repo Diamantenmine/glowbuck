@@ -3294,6 +3294,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d436a66-4b36-4fce-80a2-2bb1e8a19490")
 		)
@@ -3496,6 +3505,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "256a925e-5003-406a-9261-8415792bd360")
 		)
@@ -3577,72 +3595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a36b0fc-ea02-4dc8-a623-d8772dadd8fb")
-		(property "Reference" "#PWR0417"
-			(at 158.75 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28c8a797-c1c1-4977-bbb7-7ae5f21c6443")
-		)
-		(instances
-			(project "glowbuck"
-				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
-					(reference "#PWR0417")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 81.28 92.71 0)
 		(unit 1)
@@ -3688,6 +3640,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -3808,6 +3769,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c9c8362-ab5a-47b0-a599-2d2bc27e0869")
 		)
@@ -3886,6 +3856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f285e1b1-82ba-4f2c-b252-bfed8233e532")
 		)
@@ -3947,6 +3926,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 93.98 92.71 0)
 			(effects
 				(font
@@ -4025,6 +4013,15 @@
 			)
 		)
 		(property "ManufacturerNumber" "GRM32ER71A476KE15L"
+			(at 186.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 186.69 72.39 0)
 			(effects
 				(font
@@ -4177,6 +4174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1476d6ba-8158-49c9-8d2c-179e03a9b13a")
 		)
@@ -4255,6 +4261,15 @@
 			)
 		)
 		(property "ManufacturerNumber" "IHLP6767GZER2R2M01"
+			(at 142.24 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 142.24 66.04 90)
 			(effects
 				(font
@@ -4432,6 +4447,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 195.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0729acbe-e84a-46e2-80bf-81cc002ee604")
 		)
@@ -4491,6 +4515,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -4681,6 +4714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 64.77 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a3391885-81c3-43df-b30f-a9f763711424")
 		)
@@ -4781,6 +4823,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 170.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4916,6 +4967,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5100,6 +5160,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 128.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "560fe93d-9a3d-4fba-9ed3-6113b8c1be13")
 		)
@@ -5273,6 +5342,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 69.85 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24fc19cd-d0e8-45e0-b50d-c040e0d52447")
 		)
@@ -5409,6 +5487,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cf2b868-3b9b-4acb-8c9c-91e6bc58c039")
 		)
@@ -5517,6 +5604,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5762,6 +5858,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3eaf82c0-95e2-4e83-8187-5228240f5da3")
 		)
@@ -5897,6 +6002,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "995966af-b1ff-457d-8985-7e7a4c9c3cca")
 		)
@@ -6006,6 +6120,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 53.34 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "195658a2-a151-44ba-9d8a-f9d686176541")
 		)
@@ -6067,6 +6190,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 59.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
+			(at 59.69 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,6 +6372,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad53005d-92c9-40a3-9699-f10873dda82f")
 		)
@@ -6308,6 +6449,15 @@
 			)
 		)
 		(property "MouserNumber" "647-PCZ1V101MCL6GS"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -6492,6 +6642,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "79cbc8c1-f98d-493a-bc71-236194309274")
 		)
@@ -6553,6 +6712,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -6774,6 +6942,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0570a4dd-b68b-47a8-b024-f08006d5bb8e")
 		)
@@ -6787,6 +6964,71 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
 					(reference "Q401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 158.75 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5393446-bb15-4e72-bcf5-2dd0804746db")
+		(property "Reference" "#PWR0416"
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 156.464 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39d1d9b5-ea47-4ffd-99f8-2f2352b7d46a")
+		)
+		(instances
+			(project "glowbuck"
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534/015535ff-5c39-4e5a-877e-d1b03c5377a0"
+					(reference "#PWR0416")
 					(unit 1)
 				)
 			)
@@ -6876,6 +7118,15 @@
 				)
 			)
 		)
+		(property "Part" ""
+			(at 91.44 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "139c1368-1495-46b4-a58f-844abd67f5cb")
 		)
@@ -6935,6 +7186,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" ""
 			(at 158.75 95.25 0)
 			(effects
 				(font
