@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.16,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -63,7 +63,60 @@
           "width": 0.267
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|109800000|69312500|49caa331-60bd-4904-8c70-456995948212|2bebaa16-1756-4201-900c-2518e627b9fe",
+          "JLCPCB Minimum is 0.09 mm"
+        ],
+        [
+          "courtyards_overlap|72505000|89355000|c919fcb9-e2bc-46d7-beb8-82208e378c56|d09deeda-a28e-469d-88b8-45f1f80c2657",
+          "If the connector is not populated, the user can solder directly to the pads."
+        ],
+        [
+          "courtyards_overlap|76505000|87355000|8fd6f12b-c381-41b2-92c9-b21ac0385759|d09deeda-a28e-469d-88b8-45f1f80c2657",
+          "If the connector is not populated, the user can solder directly to the pads."
+        ],
+        [
+          "courtyards_overlap|81505000|87355000|d09deeda-a28e-469d-88b8-45f1f80c2657|f42dddc2-78eb-4469-9e9f-17196f06cc58",
+          "If the connector is not populated, the user can solder directly to the pads."
+        ],
+        [
+          "hole_clearance|101200000|56930000|7af58cfc-5c9d-4827-aa84-f6d63ff0ac22|7fad7d2d-8be3-4090-b49a-095d469de07f",
+          ""
+        ],
+        [
+          "hole_clearance|101200000|56930000|ff74abfe-8a8b-4a50-8e58-7e6f3d185831|7fad7d2d-8be3-4090-b49a-095d469de07f",
+          ""
+        ],
+        [
+          "hole_clearance|107300000|56930000|97200e31-3854-4c43-80c1-dbe4dd57f7ba|2244a6be-e07e-4fab-a622-5da269019e55",
+          ""
+        ],
+        [
+          "hole_clearance|107300000|56930000|a51d00b4-dd01-44c5-8e9b-a1c1c78604cf|2244a6be-e07e-4fab-a622-5da269019e55",
+          ""
+        ],
+        [
+          "hole_clearance|117200000|56930000|3a4baae2-0901-4d6f-8a6d-405dff65b72b|14ce29f9-3f5a-4e7a-a79c-0a69aba3424e",
+          ""
+        ],
+        [
+          "hole_clearance|117200000|56930000|5cb13021-a1cb-44d2-bbd8-0b3f1b2fca34|14ce29f9-3f5a-4e7a-a79c-0a69aba3424e",
+          ""
+        ],
+        [
+          "hole_clearance|123300000|56930000|a54f9919-6cb8-499e-ad1a-ae0dcb40667e|99eff8db-19bc-4aac-986c-eade77bad6fb",
+          ""
+        ],
+        [
+          "hole_clearance|123300000|56930000|ea22a5fd-f403-4c8e-ad35-394ad6329c82|99eff8db-19bc-4aac-986c-eade77bad6fb",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|106600000|69187500|0433e57c-de1d-4f39-ab44-5b6a7b0fa526|00000000-0000-0000-0000-000000000000",
+          "Changed via diameter from 0.2 mm to 0.3 mm"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -128,7 +181,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.11,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -194,7 +247,6 @@
       "track_widths": [
         0.0,
         0.2,
-        0.25,
         0.267,
         0.3,
         0.5,
@@ -513,13 +565,13 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.1,
+        "clearance": 0.15,
+        "diff_pair_gap": 10.0,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1,
+        "diff_pair_width": 9.0,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 10.0,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
@@ -555,7 +607,7 @@
         "track_width": 0.5
       },
       {
-        "clearance": 0.202,
+        "clearance": 0.2,
         "diff_pair_gap": 0.202,
         "diff_pair_width": 0.267,
         "name": "USB",
