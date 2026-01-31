@@ -8225,7 +8225,7 @@
 		(dnp no)
 		(uuid "7a3e8002-d1a6-4eec-80a6-776f1cf8d780")
 		(property "Reference" "C202"
-			(at 130.81 40.6401 0)
+			(at 130.048 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8234,7 +8234,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 130.81 38.1001 0)
+			(at 130.048 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +8353,7 @@
 		(dnp no)
 		(uuid "7c05718c-dd45-4683-be8c-d0d55f1a4728")
 		(property "Reference" "D201"
-			(at 106.934 38.862 90)
+			(at 109.728 38.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)

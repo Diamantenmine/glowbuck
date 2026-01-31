@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.5,
-          "width": 3.0
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -149,15 +149,15 @@
           ""
         ],
         [
-          "silk_overlap|76313748|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
-          ""
-        ],
-        [
           "silk_overlap|76800000|87650000|5c9a7203-d071-4f6c-b861-d1a5c8f1405a|76613b0e-0bb1-439d-9eea-fb0a60f90432",
           ""
         ],
         [
           "silk_overlap|76800000|87700000|76613b0e-0bb1-439d-9eea-fb0a60f90432|ece733bf-dae5-4122-83e9-6d783c912c0f",
+          ""
+        ],
+        [
+          "silk_overlap|77100000|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
           ""
         ],
         [
@@ -257,7 +257,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
