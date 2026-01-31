@@ -14228,7 +14228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 108.712 214.63 90)
 			(effects
 				(font
@@ -14246,7 +14246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Current Sense Resistor, 1/2 W"
 			(at 110.49 214.63 0)
 			(effects
 				(font
@@ -14296,7 +14296,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "WFC06032L000FE66"
+		(property "ManufacturerNumber" "WFC08052L000FE66"
 			(at 110.49 214.63 0)
 			(effects
 				(font

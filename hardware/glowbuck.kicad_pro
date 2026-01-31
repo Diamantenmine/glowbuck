@@ -66,35 +66,43 @@
       "drc_exclusions": [
         [
           "clearance|109800000|69312500|49caa331-60bd-4904-8c70-456995948212|2bebaa16-1756-4201-900c-2518e627b9fe",
-          ""
+          "Small clearance is caused by a small footprint. JLCPCB accepts even less"
         ],
         [
           "courtyards_overlap|72505000|89355000|c919fcb9-e2bc-46d7-beb8-82208e378c56|d09deeda-a28e-469d-88b8-45f1f80c2657",
-          "If the connector is not populated, the user can solder directly to the pads."
+          ""
         ],
         [
           "courtyards_overlap|76505000|87355000|8fd6f12b-c381-41b2-92c9-b21ac0385759|d09deeda-a28e-469d-88b8-45f1f80c2657",
-          "If the connector is not populated, the user can solder directly to the pads."
+          ""
         ],
         [
           "courtyards_overlap|81505000|87355000|d09deeda-a28e-469d-88b8-45f1f80c2657|f42dddc2-78eb-4469-9e9f-17196f06cc58",
-          "If the connector is not populated, the user can solder directly to the pads."
+          ""
         ],
         [
           "hole_clearance|64710000|64260000|d620b997-3738-4f72-9db8-4c2a30709cb5|664357ba-b1bd-4880-9878-091c8c19f242",
           ""
         ],
         [
+          "lib_footprint_mismatch|104250000|53965000|a1ba442d-18c4-4084-8eef-3d083ad60422|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|106600000|69187500|0433e57c-de1d-4f39-ab44-5b6a7b0fa526|00000000-0000-0000-0000-000000000000",
-          "Changed via diameter from 0.2 mm to 0.3 mm"
+          "Changed via diameter"
         ],
         [
           "lib_footprint_mismatch|119250000|100390000|88b35d65-c964-4c0d-9f85-18d834594bee|00000000-0000-0000-0000-000000000000",
-          "Adjusted Via Diameter"
+          "Changed via diameter"
+        ],
+        [
+          "lib_footprint_mismatch|120250000|53965000|84027013-9bce-432e-9a82-80b846cc659b|00000000-0000-0000-0000-000000000000",
+          ""
         ],
         [
           "lib_footprint_mismatch|64500000|64750000|c47c8251-2758-4e09-9bc8-e4ae3d247e16|00000000-0000-0000-0000-000000000000",
-          "Adjusted Via Diameter"
+          "Changed via diameter and pad connection style"
         ],
         [
           "silk_edge_clearance|110050000|100000000|e7b3c8c1-5e23-49f8-905b-7de2543154f7|3dde0e97-6316-4378-92df-9a479acd557c",
@@ -125,15 +133,15 @@
           ""
         ],
         [
-          "silk_overlap|76313748|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
-          ""
-        ],
-        [
           "silk_overlap|76800000|87650000|5c9a7203-d071-4f6c-b861-d1a5c8f1405a|76613b0e-0bb1-439d-9eea-fb0a60f90432",
           ""
         ],
         [
           "silk_overlap|76800000|87700000|76613b0e-0bb1-439d-9eea-fb0a60f90432|ece733bf-dae5-4122-83e9-6d783c912c0f",
+          ""
+        ],
+        [
+          "silk_overlap|77100000|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
           ""
         ],
         [
