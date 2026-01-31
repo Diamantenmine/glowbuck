@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.05,
-          "width": 1.575
+          "height": 1.5,
+          "width": 3.0
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -67,6 +67,10 @@
         [
           "clearance|109800000|69312500|49caa331-60bd-4904-8c70-456995948212|2bebaa16-1756-4201-900c-2518e627b9fe",
           "Small clearance is caused by a small footprint. JLCPCB accepts even less"
+        ],
+        [
+          "courtyards_overlap|66505000|87405000|4e8d253c-8601-44f8-9b5f-5d5c869fd110|d09deeda-a28e-469d-88b8-45f1f80c2657",
+          ""
         ],
         [
           "courtyards_overlap|72505000|89355000|c919fcb9-e2bc-46d7-beb8-82208e378c56|d09deeda-a28e-469d-88b8-45f1f80c2657",
@@ -121,7 +125,19 @@
           ""
         ],
         [
+          "silk_overlap|66800000|87700000|657b0bb1-fcea-4871-a676-e5228e0859e0|76613b0e-0bb1-439d-9eea-fb0a60f90432",
+          ""
+        ],
+        [
+          "silk_overlap|66800000|87700000|76613b0e-0bb1-439d-9eea-fb0a60f90432|ad8987af-45ec-44fc-962c-7365f4107565",
+          ""
+        ],
+        [
           "silk_overlap|68100000|85078188|08409c6b-4b74-4625-83c7-63a4ad7c575f|d0d62c0d-0f5d-48bf-850f-2f6afad6e12a",
+          ""
+        ],
+        [
+          "silk_overlap|70200000|87700000|76613b0e-0bb1-439d-9eea-fb0a60f90432|e33ba010-68b2-4b30-b62c-79283fd74ee0",
           ""
         ],
         [
@@ -133,15 +149,15 @@
           ""
         ],
         [
+          "silk_overlap|76313748|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
+          ""
+        ],
+        [
           "silk_overlap|76800000|87650000|5c9a7203-d071-4f6c-b861-d1a5c8f1405a|76613b0e-0bb1-439d-9eea-fb0a60f90432",
           ""
         ],
         [
           "silk_overlap|76800000|87700000|76613b0e-0bb1-439d-9eea-fb0a60f90432|ece733bf-dae5-4122-83e9-6d783c912c0f",
-          ""
-        ],
-        [
-          "silk_overlap|77100000|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
           ""
         ],
         [
