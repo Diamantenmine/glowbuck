@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.5,
-          "width": 3.0
+          "height": 1.05,
+          "width": 1.575
         },
         "silk_line_width": 0.16,
         "silk_text_italic": false,
@@ -66,7 +66,7 @@
       "drc_exclusions": [
         [
           "clearance|109800000|69312500|49caa331-60bd-4904-8c70-456995948212|2bebaa16-1756-4201-900c-2518e627b9fe",
-          "JLCPCB Minimum is 0.09 mm"
+          ""
         ],
         [
           "courtyards_overlap|72505000|89355000|c919fcb9-e2bc-46d7-beb8-82208e378c56|d09deeda-a28e-469d-88b8-45f1f80c2657",
@@ -81,40 +81,76 @@
           "If the connector is not populated, the user can solder directly to the pads."
         ],
         [
-          "hole_clearance|101200000|56930000|7af58cfc-5c9d-4827-aa84-f6d63ff0ac22|7fad7d2d-8be3-4090-b49a-095d469de07f",
-          ""
-        ],
-        [
-          "hole_clearance|101200000|56930000|ff74abfe-8a8b-4a50-8e58-7e6f3d185831|7fad7d2d-8be3-4090-b49a-095d469de07f",
-          ""
-        ],
-        [
-          "hole_clearance|107300000|56930000|97200e31-3854-4c43-80c1-dbe4dd57f7ba|2244a6be-e07e-4fab-a622-5da269019e55",
-          ""
-        ],
-        [
-          "hole_clearance|107300000|56930000|a51d00b4-dd01-44c5-8e9b-a1c1c78604cf|2244a6be-e07e-4fab-a622-5da269019e55",
-          ""
-        ],
-        [
-          "hole_clearance|117200000|56930000|3a4baae2-0901-4d6f-8a6d-405dff65b72b|14ce29f9-3f5a-4e7a-a79c-0a69aba3424e",
-          ""
-        ],
-        [
-          "hole_clearance|117200000|56930000|5cb13021-a1cb-44d2-bbd8-0b3f1b2fca34|14ce29f9-3f5a-4e7a-a79c-0a69aba3424e",
-          ""
-        ],
-        [
-          "hole_clearance|123300000|56930000|a54f9919-6cb8-499e-ad1a-ae0dcb40667e|99eff8db-19bc-4aac-986c-eade77bad6fb",
-          ""
-        ],
-        [
-          "hole_clearance|123300000|56930000|ea22a5fd-f403-4c8e-ad35-394ad6329c82|99eff8db-19bc-4aac-986c-eade77bad6fb",
+          "hole_clearance|64710000|64260000|d620b997-3738-4f72-9db8-4c2a30709cb5|664357ba-b1bd-4880-9878-091c8c19f242",
           ""
         ],
         [
           "lib_footprint_mismatch|106600000|69187500|0433e57c-de1d-4f39-ab44-5b6a7b0fa526|00000000-0000-0000-0000-000000000000",
           "Changed via diameter from 0.2 mm to 0.3 mm"
+        ],
+        [
+          "lib_footprint_mismatch|119250000|100390000|88b35d65-c964-4c0d-9f85-18d834594bee|00000000-0000-0000-0000-000000000000",
+          "Adjusted Via Diameter"
+        ],
+        [
+          "lib_footprint_mismatch|64500000|64750000|c47c8251-2758-4e09-9bc8-e4ae3d247e16|00000000-0000-0000-0000-000000000000",
+          "Adjusted Via Diameter"
+        ],
+        [
+          "silk_edge_clearance|110050000|100000000|e7b3c8c1-5e23-49f8-905b-7de2543154f7|3dde0e97-6316-4378-92df-9a479acd557c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|128450000|100000000|e7b3c8c1-5e23-49f8-905b-7de2543154f7|a79208de-e23e-40ad-a31a-ce7488ce9505",
+          ""
+        ],
+        [
+          "silk_overlap|122410000|66220000|363d25f0-b1d2-4bc5-b7af-f756e6c6ac0b|7f59f032-fb39-4cd9-a4bb-ae9d7d9617ba",
+          ""
+        ],
+        [
+          "silk_overlap|65652247|85100000|d0d62c0d-0f5d-48bf-850f-2f6afad6e12a|f6e370a4-576f-47c0-af5f-c27dccf74505",
+          ""
+        ],
+        [
+          "silk_overlap|68100000|85078188|08409c6b-4b74-4625-83c7-63a4ad7c575f|d0d62c0d-0f5d-48bf-850f-2f6afad6e12a",
+          ""
+        ],
+        [
+          "silk_overlap|71100000|85078188|b71749ee-c061-4535-84b4-33b35dbc5185|d0d62c0d-0f5d-48bf-850f-2f6afad6e12a",
+          ""
+        ],
+        [
+          "silk_overlap|74100000|85078188|82fe9655-e5e6-48aa-b3c6-aa460116aae6|d0d62c0d-0f5d-48bf-850f-2f6afad6e12a",
+          ""
+        ],
+        [
+          "silk_overlap|76313748|81310000|6b5128db-d61c-454b-9df8-4f3bb9830ebb|f6e370a4-576f-47c0-af5f-c27dccf74505",
+          ""
+        ],
+        [
+          "silk_overlap|76800000|87650000|5c9a7203-d071-4f6c-b861-d1a5c8f1405a|76613b0e-0bb1-439d-9eea-fb0a60f90432",
+          ""
+        ],
+        [
+          "silk_overlap|76800000|87700000|76613b0e-0bb1-439d-9eea-fb0a60f90432|ece733bf-dae5-4122-83e9-6d783c912c0f",
+          ""
+        ],
+        [
+          "silk_overlap|80200000|87700000|2708aa64-86c5-451a-920b-e5c578d879ea|76613b0e-0bb1-439d-9eea-fb0a60f90432",
+          ""
+        ],
+        [
+          "silk_overlap|81800000|87650000|0a3d23b1-1353-41b4-b923-26b8a39e2e33|76613b0e-0bb1-439d-9eea-fb0a60f90432",
+          ""
+        ],
+        [
+          "silk_overlap|81800000|87700000|3669c1fb-e650-4427-95b5-54943ad49f05|76613b0e-0bb1-439d-9eea-fb0a60f90432",
+          ""
+        ],
+        [
+          "silk_overlap|85200000|87700000|4d71fa3c-65dc-4a19-994f-e39acbe4476f|76613b0e-0bb1-439d-9eea-fb0a60f90432",
+          ""
         ]
       ],
       "meta": {
@@ -197,7 +233,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.3,
-        "solder_mask_to_copper_clearance": 0.1,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -627,10 +663,6 @@
     "netclass_patterns": [
       {
         "netclass": "POW",
-        "pattern": "VCC"
-      },
-      {
-        "netclass": "POW",
         "pattern": "+*"
       },
       {
@@ -668,6 +700,10 @@
       {
         "netclass": "POW",
         "pattern": ".*/SW"
+      },
+      {
+        "netclass": "POW",
+        "pattern": ".*VBUS.*"
       }
     ]
   },
