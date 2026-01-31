@@ -4088,6 +4088,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers
@@ -5882,16 +5983,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 82.55) (xy 187.96 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1aa67a-d2db-46c9-a1bc-3cc95e8400d0")
-	)
-	(wire
-		(pts
 			(xy 237.49 213.36) (xy 237.49 215.9)
 		)
 		(stroke
@@ -6562,6 +6653,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 222.25) (xy 77.47 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed40f465-195b-4012-a2d5-91a5225ff2d0")
+	)
+	(wire
+		(pts
 			(xy 54.61 156.21) (xy 57.15 156.21)
 		)
 		(stroke
@@ -7221,27 +7322,6 @@
 			)
 		)
 	)
-	(global_label "LIGHT_SENSE"
-		(shape input)
-		(at 186.69 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db14772e-2905-4568-9c74-68d9f8dd843f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4887 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GPIO9"
 		(shape input)
 		(at 260.35 215.9 0)
@@ -7380,6 +7460,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 187.96 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "PTS526SM15SMTR2 LFS"
 			(at 187.96 71.12 90)
 			(effects
 				(font
@@ -7847,6 +7936,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb3de3fb-8f29-4ebc-ac15-ed1e935a1fd4")
 		)
@@ -7857,6 +7955,72 @@
 			(project "glowbuck"
 				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 77.47 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18142016-24f3-4ea0-af77-0225691ba75f")
+		(property "Reference" "#FLG0101"
+			(at 77.47 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 77.47 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 77.47 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8efea636-b46c-4e27-a5fc-829dbb0c97d4")
+		)
+		(instances
+			(project ""
+				(path "/5c22e6dd-0c33-4422-b6db-bb3ef40a8534"
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -7974,7 +8138,7 @@
 		(at 276.86 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8048,7 +8212,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 276.86 69.85 0)
 			(effects
 				(font
@@ -8066,6 +8230,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 276.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 276.86 69.85 0)
 			(effects
 				(font
@@ -8378,6 +8551,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "IN-S126BTNPD"
+			(at 180.34 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ccb1485-e572-49b8-80b2-de30cf6f397c")
 		)
@@ -8517,6 +8699,15 @@
 		)
 		(property "ManufacturerNumber" "MSS1P4-M3/89A"
 			(at 49.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "625-MSS1P4-M3"
+			(at 49.53 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,6 +8992,15 @@
 				(hide yes)
 			)
 		)
+		(property "MouserNumber" "625-MSS1P4-M3"
+			(at 39.37 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3900990d-9a3d-4a89-bb57-7d0389059509")
 		)
@@ -8893,7 +9093,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" ""
+		(property "MouserNumber" "603-RE0603FRE07100RL"
 			(at 82.55 261.62 0)
 			(effects
 				(font
@@ -8911,6 +9111,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 82.55 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RE0603FRE07100RL"
 			(at 82.55 261.62 90)
 			(effects
 				(font
@@ -9118,7 +9327,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9497,6 +9706,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RC0603FR-130RL"
+			(at 29.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e463d688-a915-4fe3-b8a4-e6b4ea9316ec")
 		)
@@ -9617,6 +9835,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RT0603FRE07100KL"
+			(at 170.18 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9e0f469-1c87-4f7d-bf4a-c5f55d609b00")
 		)
@@ -9703,7 +9930,7 @@
 		(at 209.55 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9777,7 +10004,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -9795,6 +10022,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 209.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 209.55 120.65 0)
 			(effects
 				(font
@@ -9915,6 +10151,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -10391,6 +10636,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 190.5 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "150060VS55040"
 			(at 190.5 105.41 90)
 			(effects
 				(font
@@ -11058,6 +11312,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RT0603FRE07100KL"
+			(at 170.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9cd3f4f1-66f6-4dbb-8568-9ab6ab995908")
 		)
@@ -11277,6 +11540,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
 			(at 160.02 153.67 0)
 			(effects
 				(font
@@ -11657,7 +11929,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11731,7 +12003,7 @@
 		(at 111.76 264.16 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11897,6 +12169,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 77.47 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
 			(at 77.47 228.6 0)
 			(effects
 				(font
@@ -12195,7 +12476,7 @@
 		(at 190.5 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -12269,7 +12550,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 190.5 116.84 0)
 			(effects
 				(font
@@ -12287,6 +12568,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 190.5 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 190.5 116.84 0)
 			(effects
 				(font
@@ -12538,6 +12828,15 @@
 				(hide yes)
 			)
 		)
+		(property "MouserNumber" "595-INA181A3IDBVR"
+			(at 149.86 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7914fb67-8359-4f00-810a-a91544883e56")
 		)
@@ -12662,6 +12961,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 229.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "ESP32-S3-WROOM-1-N4"
 			(at 229.87 82.55 0)
 			(effects
 				(font
@@ -13572,6 +13880,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
+			(at 57.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c20f7e36-79ff-47d7-ac1a-42b73ea3074e")
 		)
@@ -13724,7 +14041,7 @@
 		(at 182.88 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13798,7 +14115,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -13816,6 +14133,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 182.88 59.69 0)
 			(effects
 				(font
@@ -13984,7 +14310,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -14002,6 +14328,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 163.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 163.83 43.18 0)
 			(effects
 				(font
@@ -14159,6 +14494,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -14205,7 +14541,7 @@
 		(at 110.49 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14279,7 +14615,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" ""
+		(property "MouserNumber" "71-WFC08052L000FE66"
 			(at 110.49 214.63 0)
 			(effects
 				(font
@@ -14381,7 +14717,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "SN74LVC1T45DBV"
+		(property "ManufacturerNumber" "SN74LVC1T45DBVRG4"
 			(at 64.77 241.3 0)
 			(effects
 				(font
@@ -14391,6 +14727,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 64.77 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "595-74LVC1T45DBVRG4"
 			(at 64.77 241.3 0)
 			(effects
 				(font
@@ -14504,7 +14849,7 @@
 		(at 170.18 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14576,7 +14921,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 170.18 218.44 0)
 			(effects
 				(font
@@ -14594,6 +14939,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 170.18 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 170.18 218.44 90)
 			(effects
 				(font
@@ -14722,6 +15076,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
+			(at 166.37 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "beb7c5c5-7ede-41c1-8291-9b0d385a7fea")
 		)
@@ -14834,6 +15197,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 219.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10A106MA8NRNC"
 			(at 219.71 41.91 0)
 			(effects
 				(font
@@ -15194,7 +15566,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" ""
+		(property "MouserNumber" "603-RE0603FRE07100RL"
 			(at 82.55 241.3 0)
 			(effects
 				(font
@@ -15212,6 +15584,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 82.55 241.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RE0603FRE07100RL"
 			(at 82.55 241.3 90)
 			(effects
 				(font
@@ -15522,6 +15903,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "PTS526SM15SMTR2 LFS"
+			(at 168.91 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a5023ae-c041-403b-9b3b-59cdda021f19")
 		)
@@ -15807,6 +16197,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 176.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
 			(at 176.53 224.79 0)
 			(effects
 				(font

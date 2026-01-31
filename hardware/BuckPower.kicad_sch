@@ -3479,6 +3479,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "CRCW06032R20FKEA"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "71-CRCW0603-2.2-E3"
+			(at 152.4 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d436a66-4b36-4fce-80a2-2bb1e8a19490")
 		)
@@ -3690,6 +3708,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RC0603FR-133KL"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RC0603FR-133KL"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "256a925e-5003-406a-9261-8415792bd360")
 		)
@@ -3833,6 +3869,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RT0603FRE07100KL"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RT0603FRE07100KL"
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "300b7a23-4cbf-41bd-89fe-c51ceea86cf5")
 		)
@@ -3953,6 +4007,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c9c8362-ab5a-47b0-a599-2d2bc27e0869")
 		)
@@ -4032,6 +4095,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 186.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "81-GRM32ER71A476KE5L"
 			(at 186.69 72.39 0)
 			(effects
 				(font
@@ -4188,6 +4260,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RT0603FRE07100KL"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RT0603FRE07100KL"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4d82894-fdc0-407c-b08b-c63568a1d19c")
 		)
@@ -4267,6 +4357,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "81-GRM32ER71A476KE5L"
 			(at 196.85 72.39 0)
 			(effects
 				(font
@@ -4421,6 +4520,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 176.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "81-GRM32ER71A476KE5L"
 			(at 176.53 72.39 0)
 			(effects
 				(font
@@ -4846,6 +4954,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RT0603FRE07100KL"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RT0603FRE07100KL"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2bd3ac0f-6883-4302-a11e-a49f92f26458")
 		)
@@ -5029,6 +5155,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 64.77 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RC0603FR-130RL"
 			(at 64.77 66.04 90)
 			(effects
 				(font
@@ -5285,6 +5420,24 @@
 			)
 		)
 		(property "Part" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "SIC437AED-T1-GE3"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "78-SIC437AED-T1-GE3"
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -5567,7 +5720,7 @@
 		(at 69.85 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5639,7 +5792,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 69.85 58.42 0)
 			(effects
 				(font
@@ -5657,6 +5810,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 69.85 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 69.85 58.42 90)
 			(effects
 				(font
@@ -5802,6 +5964,24 @@
 			)
 		)
 		(property "Part" ""
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B105KA8NFNC"
+			(at 73.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "187-CL10B105KA8NFNC"
 			(at 73.66 81.28 0)
 			(effects
 				(font
@@ -5987,6 +6167,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -6247,6 +6436,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "CL10B104KB8WPND"
+			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3eaf82c0-95e2-4e83-8187-5228240f5da3")
 		)
@@ -6391,6 +6589,24 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "RT0603FRE07100KL"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RT0603FRE07100KL"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "995966af-b1ff-457d-8985-7e7a4c9c3cca")
 		)
@@ -6411,7 +6627,7 @@
 		(at 53.34 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6483,7 +6699,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "652-CRT0603FZ1002ELF"
+		(property "MouserNumber" "603-RT0603DRE075K11L"
 			(at 53.34 34.29 0)
 			(effects
 				(font
@@ -6501,6 +6717,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 53.34 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE075K11L"
 			(at 53.34 34.29 90)
 			(effects
 				(font
@@ -6578,6 +6803,24 @@
 			)
 		)
 		(property "Part" ""
+			(at 59.69 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE0722KL"
+			(at 59.69 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RT0603DRE0722KL"
 			(at 59.69 58.42 90)
 			(effects
 				(font
@@ -6846,6 +7089,15 @@
 				(hide yes)
 			)
 		)
+		(property "ManufacturerNumber" "PCZ1V101MCL6GS"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7eed28d1-b468-41b8-9d22-192bab5863f0")
 		)
@@ -6997,7 +7249,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "187-CL10B104KB8WPND"
+		(property "MouserNumber" "187-CL10B105KA8NFNC"
 			(at 128.27 92.71 0)
 			(effects
 				(font
@@ -7023,6 +7275,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 128.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B105KA8NFNC"
 			(at 128.27 92.71 0)
 			(effects
 				(font
@@ -7102,6 +7363,24 @@
 			)
 		)
 		(property "Part" ""
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "CL10B105KA8NFNC"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "187-CL10B105KA8NFNC"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -7325,6 +7604,15 @@
 			)
 		)
 		(property "Part" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "2N7002NXAKR"
 			(at 64.77 34.29 0)
 			(effects
 				(font
@@ -7643,6 +7931,24 @@
 			)
 		)
 		(property "Part" ""
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ManufacturerNumber" "RT0603DRE0722KL"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserNumber" "603-RT0603DRE0722KL"
 			(at 158.75 95.25 0)
 			(effects
 				(font
