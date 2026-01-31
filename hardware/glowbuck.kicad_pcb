@@ -2362,7 +2362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
 			(at -0.2 -6.3 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2414,7 +2414,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "611-PTS526SM15SMTR2L"
+		(property "MouserNumber" "611-PTS526SM20S21LFS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2466,7 +2466,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "PTS526SM15SMTR2 LFS"
+		(property "ManufacturerNumber" "PTS526SM20SMTR21 LFS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19391,7 +19391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
 			(at -0.2 -6.3 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19443,7 +19443,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "611-PTS526SM15SMTR2L"
+		(property "MouserNumber" "611-PTS526SM20S21LFS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19495,7 +19495,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "PTS526SM15SMTR2 LFS"
+		(property "ManufacturerNumber" "PTS526SM20SMTR21 LFS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22238,7 +22238,7 @@
 		(path "/e3f9a565-678f-49fa-9a5c-ade855ffc351")
 		(sheetname "/")
 		(sheetfile "glowbuck.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.11 -1.11)
 			(end 0 -1.11)
@@ -31622,8 +31622,8 @@
 		(uuid "f6e370a4-576f-47c0-af5f-c27dccf74505")
 	)
 	(gr_rect
-		(start 74.15 60.45)
-		(end 79.15 65.45)
+		(start 69.1 60)
+		(end 79.1 62)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -34834,7 +34834,7 @@
 		(uuid "d26503fa-77dd-488d-a56b-756a205122b1")
 	)
 	(via
-		(at 72.9 54.3)
+		(at 73.3 54.35)
 		(size 0.45)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")

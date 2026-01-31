@@ -7472,7 +7472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
 			(at 193.04 71.12 0)
 			(effects
 				(font
@@ -7506,7 +7506,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "611-PTS526SM15SMTR2L"
+		(property "MouserNumber" "611-PTS526SM20S21LFS"
 			(at 187.96 71.12 0)
 			(effects
 				(font
@@ -7540,7 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "PTS526SM15SMTR2 LFS"
+		(property "ManufacturerNumber" "PTS526SM20SMTR21 LFS"
 			(at 187.96 71.12 90)
 			(effects
 				(font
@@ -15915,7 +15915,7 @@
 		(at 254 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16129,7 +16129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/2780/pts526.pdf"
 			(at 173.99 54.61 0)
 			(effects
 				(font
@@ -16163,7 +16163,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "611-PTS526SM15SMTR2L"
+		(property "MouserNumber" "611-PTS526SM20S21LFS"
 			(at 168.91 54.61 0)
 			(effects
 				(font
@@ -16197,7 +16197,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "PTS526SM15SMTR2 LFS"
+		(property "ManufacturerNumber" "PTS526SM20SMTR21 LFS"
 			(at 168.91 54.61 90)
 			(effects
 				(font
