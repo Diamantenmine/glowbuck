@@ -5572,7 +5572,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 214.63 119.38 0)
 			(effects
 				(font
@@ -5598,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 214.63 119.38 0)
 			(effects
 				(font
@@ -9276,7 +9276,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 214.63 86.36 0)
 			(effects
 				(font
@@ -9311,7 +9311,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 214.63 86.36 0)
 			(effects
 				(font
@@ -10219,7 +10219,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 97.79 119.38 0)
 			(effects
 				(font
@@ -10254,7 +10254,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 97.79 119.38 90)
 			(effects
 				(font
@@ -10483,7 +10483,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 90.17 119.38 0)
 			(effects
 				(font
@@ -10518,7 +10518,7 @@
 				(hide yes)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 90.17 119.38 90)
 			(effects
 				(font

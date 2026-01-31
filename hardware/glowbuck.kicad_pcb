@@ -2192,7 +2192,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2231,7 +2231,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2606,14 +2606,13 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP104"
-			(at 0 -1.8 0)
+			(at -1.45 1.65 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "42eefd4c-6f0a-49f5-a594-0d0269e97988")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.153)
 				)
 			)
 		)
@@ -3132,7 +3131,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3171,7 +3170,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4349,7 +4348,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4388,7 +4387,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5050,7 +5049,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5089,7 +5088,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7734,7 +7733,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.153)
 				)
 			)
 		)
@@ -8908,7 +8907,6 @@
 		(property "Reference" "JP202"
 			(at -0.72 1.62 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "d34a411d-dc33-4f84-9e77-810ae5c60370")
 			(effects
 				(font
@@ -10185,7 +10183,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10237,7 +10235,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11167,7 +11165,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11206,7 +11204,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12621,7 +12619,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12660,7 +12658,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17617,7 +17615,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17669,7 +17667,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18097,7 +18095,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18136,7 +18134,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19162,7 +19160,6 @@
 		(property "Reference" "JP201"
 			(at 0.54 -1.5 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "3a379378-028d-44ed-8102-8f6d77cd1de4")
 			(effects
 				(font
@@ -23435,7 +23432,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23474,7 +23471,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25067,9 +25064,8 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP103"
-			(at 0 -1.8 90)
+			(at 6 0.65 270)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "49c1414f-acbb-44e5-a760-ed798fa311b3")
 			(effects
 				(font
@@ -26290,7 +26286,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26873,7 +26869,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26912,7 +26908,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27275,7 +27271,7 @@
 				)
 			)
 		)
-		(property "MouserNumber" "603-RT0603DRE075K11L"
+		(property "MouserNumber" "603-RC0603FR-105K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27327,7 +27323,7 @@
 				)
 			)
 		)
-		(property "ManufacturerNumber" "RT0603DRE075K11L"
+		(property "ManufacturerNumber" "RC0603FR-105K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28269,9 +28265,8 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP101"
-			(at -0.8 -2 0)
+			(at -0.35 -2.1 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "fe8c1167-21c0-49da-816e-b343edb8e8f7")
 			(effects
 				(font
@@ -28626,9 +28621,8 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP102"
-			(at 0 -1.8 0)
+			(at 0.25 -2 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ddba2fe8-6706-4c31-8c1d-6b309f5fd825")
 			(effects
 				(font
@@ -31628,8 +31622,8 @@
 		(uuid "f6e370a4-576f-47c0-af5f-c27dccf74505")
 	)
 	(gr_rect
-		(start 78.05 59.45)
-		(end 83.05 64.45)
+		(start 74.15 60.45)
+		(end 79.15 65.45)
 		(stroke
 			(width 0.16)
 			(type solid)
@@ -31991,7 +31985,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.16)
+				(thickness 0.153)
 			)
 			(justify left top mirror)
 		)
@@ -32040,7 +32034,7 @@
 		(uuid "10773d41-d5a7-4025-a63a-bbbfd279586a")
 	)
 	(via
-		(at 76.3 56.25)
+		(at 76.05 56.25)
 		(size 0.45)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -33762,7 +33756,7 @@
 		(uuid "638467ba-3964-4e63-8b6d-dbc0330f82a3")
 	)
 	(via
-		(at 81.2 54.3)
+		(at 81.4 54.25)
 		(size 0.45)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -34337,7 +34331,7 @@
 		(uuid "9d9bf0a1-0a0d-4ef0-9203-824ac1a3cb68")
 	)
 	(via
-		(at 77.2 54.3)
+		(at 77 54.05)
 		(size 0.45)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -49700,11 +49694,11 @@
 				(xy 64.764239 56.453498) (xy 64.764238 56.453497) (xy 64.764237 56.453497) (xy 64.656018 56.4245)
 				(xy 64.543982 56.4245) (xy 64.435763 56.453497) (xy 64.43576 56.453498) (xy 64.33874 56.509513)
 				(xy 64.338734 56.509517) (xy 64.259517 56.588734) (xy 64.259513 56.58874) (xy 64.203498 56.68576)
-				(xy 64.203497 56.685763) (xy 64.1745 56.793982) (xy 54.5005 56.793982) (xy 54.5005 56.193982) (xy 75.8745 56.193982)
-				(xy 75.8745 56.306018) (xy 75.897155 56.390566) (xy 75.903497 56.414236) (xy 75.903498 56.414239)
-				(xy 75.909422 56.4245) (xy 75.959515 56.511263) (xy 76.038737 56.590485) (xy 76.135763 56.646503)
-				(xy 76.243982 56.6755) (xy 76.243984 56.6755) (xy 76.356016 56.6755) (xy 76.356018 56.6755) (xy 76.464237 56.646503)
-				(xy 76.468603 56.643982) (xy 80.8745 56.643982) (xy 80.8745 56.756018) (xy 80.903497 56.864237)
+				(xy 64.203497 56.685763) (xy 64.1745 56.793982) (xy 54.5005 56.793982) (xy 54.5005 56.193982) (xy 75.6245 56.193982)
+				(xy 75.6245 56.306018) (xy 75.647155 56.390566) (xy 75.653497 56.414236) (xy 75.653498 56.414239)
+				(xy 75.659422 56.4245) (xy 75.709515 56.511263) (xy 75.788737 56.590485) (xy 75.885763 56.646503)
+				(xy 75.993982 56.6755) (xy 75.993984 56.6755) (xy 76.106016 56.6755) (xy 76.106018 56.6755) (xy 76.214237 56.646503)
+				(xy 76.218603 56.643982) (xy 80.8745 56.643982) (xy 80.8745 56.756018) (xy 80.903497 56.864237)
 				(xy 80.959515 56.961263) (xy 81.038737 57.040485) (xy 81.135763 57.096503) (xy 81.243982 57.1255)
 				(xy 81.243984 57.1255) (xy 81.356016 57.1255) (xy 81.356018 57.1255) (xy 81.464237 57.096503) (xy 81.561263 57.040485)
 				(xy 81.640485 56.961263) (xy 81.696503 56.864237) (xy 81.7255 56.756018) (xy 81.7255 56.643982)
@@ -49712,12 +49706,12 @@
 				(xy 81.464239 56.303498) (xy 81.464238 56.303497) (xy 81.464237 56.303497) (xy 81.356018 56.2745)
 				(xy 81.243982 56.2745) (xy 81.135763 56.303497) (xy 81.13576 56.303498) (xy 81.03874 56.359513)
 				(xy 81.038734 56.359517) (xy 80.959517 56.438734) (xy 80.959513 56.43874) (xy 80.903498 56.53576)
-				(xy 80.903497 56.535763) (xy 80.8745 56.643982) (xy 76.468603 56.643982) (xy 76.561263 56.590485)
-				(xy 76.640485 56.511263) (xy 76.696503 56.414237) (xy 76.7255 56.306018) (xy 76.7255 56.193982)
-				(xy 76.696503 56.085763) (xy 76.640485 55.988737) (xy 76.561263 55.909515) (xy 76.464237 55.853497)
-				(xy 76.356018 55.8245) (xy 76.243982 55.8245) (xy 76.135763 55.853497) (xy 76.13576 55.853498) (xy 76.03874 55.909513)
-				(xy 76.038734 55.909517) (xy 75.959517 55.988734) (xy 75.959513 55.98874) (xy 75.903498 56.08576)
-				(xy 75.903497 56.085763) (xy 75.8745 56.193982) (xy 54.5005 56.193982) (xy 54.5005 55.793982) (xy 84.5745 55.793982)
+				(xy 80.903497 56.535763) (xy 80.8745 56.643982) (xy 76.218603 56.643982) (xy 76.311263 56.590485)
+				(xy 76.390485 56.511263) (xy 76.446503 56.414237) (xy 76.4755 56.306018) (xy 76.4755 56.193982)
+				(xy 76.446503 56.085763) (xy 76.390485 55.988737) (xy 76.311263 55.909515) (xy 76.214237 55.853497)
+				(xy 76.106018 55.8245) (xy 75.993982 55.8245) (xy 75.885763 55.853497) (xy 75.88576 55.853498) (xy 75.78874 55.909513)
+				(xy 75.788734 55.909517) (xy 75.709517 55.988734) (xy 75.709513 55.98874) (xy 75.653498 56.08576)
+				(xy 75.653497 56.085763) (xy 75.6245 56.193982) (xy 54.5005 56.193982) (xy 54.5005 55.793982) (xy 84.5745 55.793982)
 				(xy 84.5745 55.906018) (xy 84.603497 56.014237) (xy 84.659515 56.111263) (xy 84.738737 56.190485)
 				(xy 84.835763 56.246503) (xy 84.943982 56.2755) (xy 84.943984 56.2755) (xy 85.056016 56.2755) (xy 85.056018 56.2755)
 				(xy 85.164237 56.246503) (xy 85.261263 56.190485) (xy 85.340485 56.111263) (xy 85.396503 56.014237)
@@ -50843,10 +50837,10 @@
 				(xy 59.08132 61.214806) (xy 59.012713 61.228029) (xy 58.947848 61.20206) (xy 58.90732 61.145146)
 				(xy 58.9005 61.10459) (xy 58.9005 58.15261) (xy 58.920185 58.085571) (xy 58.936819 58.064929) (xy 58.940485 58.061263)
 				(xy 58.996503 57.964237) (xy 59.0255 57.856018) (xy 59.0255 57.850833) (xy 59.045185 57.783794)
-				(xy 59.061819 57.763152) (xy 60.630989 56.193982) (xy 75.8745 56.193982) (xy 75.8745 56.306018)
-				(xy 75.903127 56.412854) (xy 75.903497 56.414236) (xy 75.903498 56.414239) (xy 75.909422 56.4245)
-				(xy 75.959515 56.511263) (xy 76.038737 56.590485) (xy 76.135763 56.646503) (xy 76.243982 56.6755)
-				(xy 76.243984 56.6755) (xy 76.356016 56.6755) (xy 76.356018 56.6755) (xy 76.464237 56.646503) (xy 76.468603 56.643982)
+				(xy 59.061819 57.763152) (xy 60.630989 56.193982) (xy 75.6245 56.193982) (xy 75.6245 56.306018)
+				(xy 75.653127 56.412854) (xy 75.653497 56.414236) (xy 75.653498 56.414239) (xy 75.659422 56.4245)
+				(xy 75.709515 56.511263) (xy 75.788737 56.590485) (xy 75.885763 56.646503) (xy 75.993982 56.6755)
+				(xy 75.993984 56.6755) (xy 76.106016 56.6755) (xy 76.106018 56.6755) (xy 76.214237 56.646503) (xy 76.218603 56.643982)
 				(xy 80.8745 56.643982) (xy 80.8745 56.756018) (xy 80.903497 56.864237) (xy 80.959515 56.961263)
 				(xy 81.038737 57.040485) (xy 81.135763 57.096503) (xy 81.243982 57.1255) (xy 81.243984 57.1255)
 				(xy 81.356016 57.1255) (xy 81.356018 57.1255) (xy 81.464237 57.096503) (xy 81.561263 57.040485)
@@ -50855,12 +50849,12 @@
 				(xy 81.464239 56.303498) (xy 81.464238 56.303497) (xy 81.464237 56.303497) (xy 81.356018 56.2745)
 				(xy 81.243982 56.2745) (xy 81.135763 56.303497) (xy 81.13576 56.303498) (xy 81.03874 56.359513)
 				(xy 81.038734 56.359517) (xy 80.959517 56.438734) (xy 80.959513 56.43874) (xy 80.903498 56.53576)
-				(xy 80.903497 56.535763) (xy 80.8745 56.643982) (xy 76.468603 56.643982) (xy 76.561263 56.590485)
-				(xy 76.640485 56.511263) (xy 76.696503 56.414237) (xy 76.7255 56.306018) (xy 76.7255 56.193982)
-				(xy 76.696503 56.085763) (xy 76.640485 55.988737) (xy 76.561263 55.909515) (xy 76.464237 55.853497)
-				(xy 76.356018 55.8245) (xy 76.243982 55.8245) (xy 76.135763 55.853497) (xy 76.13576 55.853498) (xy 76.03874 55.909513)
-				(xy 76.038734 55.909517) (xy 75.959517 55.988734) (xy 75.959513 55.98874) (xy 75.903498 56.08576)
-				(xy 75.903497 56.085763) (xy 75.8745 56.193982) (xy 60.630989 56.193982) (xy 61.030989 55.793982)
+				(xy 80.903497 56.535763) (xy 80.8745 56.643982) (xy 76.218603 56.643982) (xy 76.311263 56.590485)
+				(xy 76.390485 56.511263) (xy 76.446503 56.414237) (xy 76.4755 56.306018) (xy 76.4755 56.193982)
+				(xy 76.446503 56.085763) (xy 76.390485 55.988737) (xy 76.311263 55.909515) (xy 76.214237 55.853497)
+				(xy 76.106018 55.8245) (xy 75.993982 55.8245) (xy 75.885763 55.853497) (xy 75.88576 55.853498) (xy 75.78874 55.909513)
+				(xy 75.788734 55.909517) (xy 75.709517 55.988734) (xy 75.709513 55.98874) (xy 75.653498 56.08576)
+				(xy 75.653497 56.085763) (xy 75.6245 56.193982) (xy 60.630989 56.193982) (xy 61.030989 55.793982)
 				(xy 84.5745 55.793982) (xy 84.5745 55.906018) (xy 84.603497 56.014237) (xy 84.659515 56.111263)
 				(xy 84.738737 56.190485) (xy 84.835763 56.246503) (xy 84.943982 56.2755) (xy 84.943984 56.2755)
 				(xy 85.056016 56.2755) (xy 85.056018 56.2755) (xy 85.164237 56.246503) (xy 85.261263 56.190485)
@@ -52326,14 +52320,6 @@
 				(xy 122.648638 57.8)
 			)
 		)
-	)
-	(group ""
-		(uuid "b8a85c25-869b-4794-916d-40afb5612799")
-		(members "88114caa-589f-49c8-b551-27622386bc59" "a1ba442d-18c4-4084-8eef-3d083ad60422")
-	)
-	(group ""
-		(uuid "c061c938-77ef-4e2b-b439-539f5a70bae2")
-		(members "84027013-9bce-432e-9a82-80b846cc659b" "df41fbdb-ae57-4a8d-a916-b01a02a27ec6")
 	)
 	(group ""
 		(uuid "4927b306-9faa-4e55-831d-4a08894170ce")
